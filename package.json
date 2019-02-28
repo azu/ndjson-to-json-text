@@ -22,8 +22,8 @@
     "lib/",
     "src/"
   ],
-  "main": "lib/ndjson-to-json-text.js",
-  "types": "lib/ndjson-to-json-text.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
