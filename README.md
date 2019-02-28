@@ -16,6 +16,13 @@ to
 [{"id":1,"name":"Alice"},{"id":2,"name":"Bob"},{"id":3,"name":"Carol"}]
 ```
 
+## Purpose
+
+- Just convert ndjson(text file) to json(text file)
+    - You should `JSON.parse` the result json text outside of this library
+- No use `JSON.parse` in this library
+    - It is a cost
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
@@ -42,6 +49,8 @@ const jsonText = ndjsonToJsonText(
 {"id":3,"name":"Carol"}`)
 console.log(jsonText);
 // [{"id":1,"name":"Alice"},{"id":2,"name":"Bob"},{"id":3,"name":"Carol"}]
+const json = JSON.parse(jsonText);
+// actual json object!!
 ```
 
 ## Related
