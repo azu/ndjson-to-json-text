@@ -1,6 +1,6 @@
 {
   "name": "ndjson-to-json-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert ndjson to json text without JSON parsing.",
   "keywords": [
     "converter",
@@ -66,6 +66,5 @@
     "ts-node-test-register": "^8.0.0",
     "typescript": "^3.3.3333"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
