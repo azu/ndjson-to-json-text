@@ -1,4 +1,4 @@
-# ndjson-to-json-text
+# ndjson-to-json-text [![Build Status](https://travis-ci.org/azu/ndjson-to-json-text.svg?branch=master)](https://travis-ci.org/azu/ndjson-to-json-text)
 
 Convert ndjson to JSON text without JSON parsing.
 
