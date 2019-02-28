@@ -1,6 +1,6 @@
 {
   "name": "ndjson-to-json-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert ndjson to json text without JSON parsing.",
   "keywords": [
     "converter",
