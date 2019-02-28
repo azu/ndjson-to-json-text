@@ -33,6 +33,17 @@ Install with [npm](https://www.npmjs.com/):
 export declare function ndjsonToJsonText(ndjsonText: string): string;
 ```
 
+## Example
+
+```js
+const jsonText = ndjsonToJsonText(
+`{"id":1,"name":"Alice"}
+{"id":2,"name":"Bob"}
+{"id":3,"name":"Carol"}`)
+console.log(jsonText);
+// [{"id":1,"name":"Alice"},{"id":2,"name":"Bob"},{"id":3,"name":"Carol"}]
+```
+
 ## Related
 
 - [madnight/ndjson-to-json: Converts NDJSON to JSON](https://github.com/madnight/ndjson-to-json#readme)
