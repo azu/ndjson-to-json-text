@@ -2,7 +2,7 @@
 
 Convert ndjson text to JSON text without JSON parsing.
 
-This library convert ndjson text to json text.
+This library convert ndjson [ndjson](http://ndjson.org/) to JSON text.
 
 ```
 {"id":1,"name":"Alice"}
